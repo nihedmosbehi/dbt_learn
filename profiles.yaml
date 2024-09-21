@@ -1,0 +1,12 @@
+dbt_learn:
+  outputs:
+    dev:
+      dbname: annotation-manager-db
+      host: 192.168.160.2
+      pass: root
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: root
+  target: dev
